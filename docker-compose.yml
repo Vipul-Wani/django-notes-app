@@ -1,7 +1,7 @@
 version: "3.8"
 service :
   web :
-      image: "Vipul-Wani/notes-app:latest"
+      image: "vipulwani077/notes-app:latest"
       ports:
           - "8005:8000"  
           
