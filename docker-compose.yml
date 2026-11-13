@@ -4,3 +4,4 @@ service :
       image: "vipulwani077/notes-app:latest"
       ports:
           - "8005:8000"  
+          
