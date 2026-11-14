@@ -16,12 +16,13 @@ pipeline{
         }
         stage("Push to DockerHub"){
             steps{
-                dockerpush("dockerHubCreds","notes-app","latest")
+                dockerpush("dockerHubCred","notes-app","latest")
             }
         }
         stage("Deploy"){
             steps{
-                deploy()
+                 echo "This is a Deploy Code Structure"
+                 sh "docker compose down &&  docker compose up -d"
             }
         }
         
