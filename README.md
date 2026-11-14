@@ -30,3 +30,6 @@ Testing automatic Jenkins CI/CD webhook integration.
 
 `sudo apt-get update`
 `sudo apt install nginx`
+
+
+Testing automatic Jenkins CI/CD trigger
